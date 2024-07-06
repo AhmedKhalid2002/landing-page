@@ -1,0 +1,303 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        width: 1084px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 876px;
+    }
+    footer .footer-content{
+        width: 80%;
+    }
+    .footer-policy{
+        margin:  auto;
+        padding: 20px;
+        width: 50%;
+    }
+}  
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    /* ^Navbar */
+    nav{
+        position: relative;
+    }
+    .page-link ul{
+        flex-direction: column;
+        position: absolute;
+        right: 10%;
+        top:60px;
+        margin-top: 20px;
+        background-color: var(--main-color);
+        padding: 40px 25px;
+        border-radius: 10px;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        display: none;
+    }
+    .active::after{
+        background-color:transparent ;
+    }
+    .call-us{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        gap: 20px;
+    }
+    .call-us span{
+        font-size: 18px;
+    }
+    .menu i{
+        display: block;
+        cursor: pointer;
+    }
+    /* ^ south west */
+    .south-west .row{
+        align-items: center;
+    }
+    .content-info{
+        width: 70%;
+    }
+    .image .rec-image img{
+        display: none;
+    }
+    .image{
+        width: 30%;
+    }
+    .solar{
+        position: static;
+    }
+    /* ^ solar kit and value section */
+    .card,.card-value{
+        width: calc(calc(100% - 60px) / 2);
+    }
+    /* ^ energy */
+    .energy-content{
+        width: 100%;
+    }
+    .energy-content p{
+        text-align: center;
+    }
+    .energy-group{
+        width: 100%;
+        margin-block: 25px;
+    }
+    /* ^ Woc */
+    .card-opinion p{
+        font-size: 20px;
+    }
+    .arows{
+        gap: 10px;
+    }
+    .arows .arow{
+        width: 30px;
+        height: 30px;
+    }
+    /* ^ Footer */
+    footer{
+        padding: 30px 0;
+    }
+    footer ul{
+       padding: 20px ;
+       align-self: center;
+       position: relative;
+    }
+    .subscribe .btn{
+        padding: 10px;      
+    }
+    
+    .footer-content{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .menu{
+        padding: 20px;
+    }
+    /* ^ Home */
+    .home-content{
+        padding: 35px;
+    }
+    .home-content h1{
+        font-size: 40px;
+    }
+    .home-content p{
+        font-size: 20px;
+    }
+        /* ^ south west */
+    .image{
+        display: none;
+    }
+    .content-info{
+        width: 100%;
+    }
+    .heading p{
+        padding: 0;
+    }
+        /* ^ woc */
+    .woc .say{
+        width: 100%;
+    }
+    .woc .say p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .card-opinion{
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    /* ^ footer */
+    footer{
+        padding: 18px;
+    }
+    footer .footer-content{
+        flex-direction: column;
+    }
+    footer .search{
+        padding-block: 20px;
+    }
+    .footer-policy{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    /* ^ Nav */
+    
+    .call-us {
+        display: none;
+    }
+    
+    /* ^ Home */
+    .home-content{
+        padding: 35px;
+    }
+    .home-content h1{
+        font-size: 30px;
+    }
+    .home-content p{
+        font-size: 16px;
+    }
+    .home-content .btn{
+        padding: 12px 20px;
+        margin-top: 10px;
+    }
+    /* ^ south west */
+    
+    .heading h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .heading p{
+        font-size: 16px;
+        text-align: center;
+        padding-inline: 20px;
+    }
+    .detail ul{
+        padding-inline: 18px;
+    }
+    .detail  span:first-child{
+        font-size: 16px;
+    }
+    .detail span:last-child{
+        font-size: 16px;
+    }
+    
+    /* ^ power  */
+    .power-content{
+        padding: 20px;
+    }
+    .power-content h2{
+        font-size: 25px;
+    }
+    .power-content p{
+        font-size: 18px;
+    }
+    /* ^ Solar kit */
+    .heading-section h2{
+        font-size: 30px;
+    }
+    .heading-section p{
+        font-size: 16px;
+        padding: 15px;
+    }
+    .card-group{
+        padding: 20px;
+    }
+    .card,.card-value{
+        width:100%;
+    }
+    /* ^ repair */
+    .repair{
+        padding: 10px;
+    }
+    .repair-content{
+        padding: 25px;
+    }
+    .repair-content h3{
+        font-size: 25px;
+    }
+    .repair-content p{
+        font-size: 16px;
+    }
+    /*^ energy  */
+    .energy{
+        padding: 20px;
+    }
+    .energy-content h2{
+        font-size: 30px;
+    }
+    .energy-content p{
+        font-size: 16px;
+    }
+    .energy-group .row .card-energy{
+        width: 100%;
+    }
+    /* ^ value */
+    .value{
+        padding: 20px;
+    }
+    /* ^ woc */
+    .woc{
+        padding: 10px;
+    }
+    .woc .say h3{
+        font-size: 25px;
+    }
+    .woc .say p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .arows{
+        flex-direction: column;
+    }
+    /* ^ footer */
+    footer{
+        padding: 20px;
+    }
+    footer ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-content::after{
+        display: none;
+    }
+    footer .search input{
+        width: 100%;
+    }
+    footer .btn{
+        width: 100%;
+    }
+    .footer-policy{
+        flex-direction: column  ;
+        width: 100%;
+    }
+
+}
